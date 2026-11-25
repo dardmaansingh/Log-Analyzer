@@ -1,0 +1,14 @@
+2026-11-22 10:00:01 INFO 192.168.1.10 User alice login successful
+2026-11-22 10:00:15 INFO 192.168.1.11 GET /index.html 200
+2026-11-22 10:01:02 WARN 10.0.0.99 Failed login for user admin
+2026-11-22 10:01:04 WARN 10.0.0.99 Failed login for user admin
+2026-11-22 10:01:06 WARN 10.0.0.99 Failed login for user root
+2026-11-22 10:01:08 ERROR 10.0.0.99 Failed login for user root - account locked
+2026-11-22 10:02:30 INFO 192.168.1.10 GET /dashboard 200
+2026-11-22 10:03:11 ERROR 172.16.0.5 GET /files?path=../../etc/passwd 403
+2026-11-22 10:03:45 WARN 172.16.0.5 GET /search?q=1 UNION SELECT password FROM users 500
+2026-11-22 10:04:00 INFO 192.168.1.12 User bob login successful
+this line is garbage and should be skipped
+2026-11-22 10:05:20 ERROR 192.168.1.11 Database timeout
+2026-11-22 10:06:10 INFO 192.168.1.10 User alice logout
+2026-11-22 10:07:00 WARN 10.0.0.99 Failed login for user test
